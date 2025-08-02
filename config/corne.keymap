@@ -67,10 +67,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LEFT_ALT  &kp TAB         &kp UP_ARROW  &kp HOME   &kp END     &kp TILDE    &kp APOS              &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp CAPS      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans      &kp PIPE     &kp QUESTION          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&trans        &trans          &trans        &trans     &ctrlshifv  &kp SLASH    &kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE        &kp RIGHT_BRACE
-                                            &trans     &trans      &kp SPACE    &kp RET               &trans        &kp NUMBER_0
+&kp LEFT_ALT  &kp TAB         &kp UP_ARROW  &kp HOME   &kp END     &kp TILDE    &kp APOS       &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp CAPS      &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans      &kp PIPE     &kp QUESTION   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&trans        &trans          &trans        &trans     &ctrlshifv  &kp SLASH    &kp BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE        &kp RIGHT_BRACE
+                                            &trans     &trans      &kp SPACE    &kp RET        &trans        &kp NUMBER_0
             >;
         };
 
@@ -84,7 +84,7 @@
             bindings = <
 &trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp COLON       &kp ASTRK     &kp EQUAL       &kp AMPERSAND  &trans
 &trans  &trans    &trans  &trans    &trans    &trans       &kp PLUS   &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT      &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &trans     &trans          &trans        &trans          &trans         &trans
+&trans  &trans    &kp F9  &kp F10   &kp F11   &kp F12      &trans     &trans          &trans        &trans          &trans         &trans
                           &trans    &trans    &kp SPACE    &kp RET    &trans          &trans
             >;
         };
